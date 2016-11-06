@@ -1,0 +1,53 @@
+body {
+  padding-top: 50px;
+}
+div.center {
+  text-align: center;
+}
+div.center > * {
+  display: inline-block;
+  margin: 10px;
+}
+p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  font-size: 30px;
+}
+.circle {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 33.333333333px;
+}
+.linkedin {
+  background: #4875b4;
+  color: white;
+}
+.github {
+  background: #767676;
+  color: white;
+}
+img.profile {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+figure {
+  display: inline-block;
+}
+figure img {
+  vertical-align: top;
+}
+figure figcaption {
+  text-align: center;
+}
